@@ -11,8 +11,8 @@ $ ->
     dataType : 'xml'
     success  : (doc)->
       R = new Raphael 'paper', '100%', '100%'
-      $(doc).find('path').each ()->
-        path = $(this)
+      $(doc).find('path').each ->
+        path = $ this
         id   = path.attr 'id'
         str  = path.attr 'd'
         worldmap[id] = R.path str
