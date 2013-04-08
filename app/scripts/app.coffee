@@ -1,4 +1,4 @@
-(exports ? window).worldmap = {}
+exports ? window).worldmap = {}
 
 defaultFill =
   fill           : '#f00'
@@ -10,7 +10,7 @@ $ ->
     url      : 'images/world.svg'
     dataType : 'xml'
     success  : (doc)->
-      R = new Raphael 'paper', "100%", "100%"
+      R = new Raphael 'paper', '100%', '100%'
       $(doc).find('path').each ()->
         path = $(this)
         id   = path.attr 'id'
