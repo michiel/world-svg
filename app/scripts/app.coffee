@@ -1,4 +1,4 @@
-exports ? window).worldmap = {}
+(exports ? window).worldmap = {}
 
 defaultFill =
   fill           : '#f00'
@@ -27,7 +27,7 @@ $ ->
       color += pattern[Math.round(Math.random() * pattern.length)]
     color
 
-  (exports ? window).run = ->
+  run = ->
     for name, path of worldmap
       path.animate
         fill : randomColor()
