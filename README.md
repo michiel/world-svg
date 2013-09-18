@@ -8,3 +8,7 @@ Use yeoman / grunt to build
 
 
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/michiel/world-svg/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
